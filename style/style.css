@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* container */
+.container 
+{
+    width: 50%;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+/* inputForm */
+.container .inputForm
+{
+    width: 100%;
+    padding: 20px 15px;
+    background-color: #eee;
+}
+.container .inputForm form
+{
+    display: flex;
+}
+.container .inputForm form #theInput
+{
+    width: 100%;
+    padding: 15px 5px;
+    border: 0;
+}
+.container .inputForm form #theInput:focus
+{
+    outline: 2px solid #F44336;
+}
+.container .inputForm form #getReposBtn
+{
+    width: 130px;
+    height: 60px;
+    margin-left: 10px;
+    border: 0;
+    background-color: #F44336;
+    cursor: pointer;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.container .inputForm form #getReposBtn:focus
+{
+    outline: 0;
+}
+/* result */
+.container .result
+{
+    width: 100%;
+    height: auto;
+    padding: 20px 15px;
+    background-color: #E0E0E0;
+}
+.container .result .messageTellNoData
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    
+
+}
+.container .result .dataContainer
+{
+    padding: 15px 10px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;;
+}
+.container .result .dataContainer .dataBtns
+{
+    float: right;
+}
+.container .result .dataContainer:not(:last-child)
+{
+    margin-bottom: 10px;
+}
+.container .result .dataContainer .text 
+    {
+        max-width: 250px;
+        height: 20px;
+        overflow: hidden;
+        display: inline-block;
+    }
+.container .result .dataContainer .dataBtns .stars,
+.container .result .dataContainer .dataBtns a
+{
+    width: 110px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+}
+.container .result .dataContainer .dataBtns .stars
+{
+    background: #009688;
+    margin-right: 5px;
+}
+.container .result .dataContainer .dataBtns a
+{
+    text-decoration: none;
+    background-color: #F44336;
+}
+/* media */
+@media(max-width:1200px)
+{
+    .container{
+        width: 80%;
+    }
+}
+@media(max-width:992px)
+{
+    .container{
+        width: 80%;
+    }
+}
+@media(max-width:768px){
+     .container{
+        width: 95%;
+    }
+    .container .result .dataContainer .text 
+    {
+        width: 90px;
+        overflow: hidden;
+    }
+    .container .result .dataContainer .dataBtns .stars,
+.container .result .dataContainer .dataBtns a
+{
+    width: 80px;
+}
+}
+

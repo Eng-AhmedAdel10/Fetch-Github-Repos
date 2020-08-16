@@ -121,7 +121,7 @@
 }
 @media(max-width:768px){
      .container{
-        width: 95%;
+        width: 99%;
     }
     .container .result .dataContainer .text 
     {
@@ -131,7 +131,7 @@
     .container .result .dataContainer .dataBtns .stars,
 .container .result .dataContainer .dataBtns a
 {
-    width: 80px;
+    width: 50px;
 }
 }
 

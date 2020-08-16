@@ -4,12 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body
-{
-    background:red;
-    width:100%;
-    height:100vh;
-}
 /* container */
 .container 
 {
@@ -138,6 +132,7 @@ body
 .container .result .dataContainer .dataBtns a
 {
     width: 50px;
+    padding:3px;
 }
 }
 
